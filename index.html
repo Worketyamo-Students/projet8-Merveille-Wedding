@@ -1,106 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>wedding</title>
-     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-     <link rel="stylesheet" href="./assets/css/index.css">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link
-         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-         rel="stylesheet">
-     <link
-         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-         rel="stylesheet">
-         <link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
- 
-     <style type="text/tailwindcs">
-         @theme {       
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wedding</title>
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">  -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
+
+    <style type="text/tailwindcs">
+        @theme {       
               --font-inter: "Inter";
               --font-ibm: "IBM Plex Sans Hebrew";
               --font-open: "Open Sans";
               --color-noirt: #2B1105;
-              --color-page: #FCF9F7;
+              --color-page: #fcf9f7;
               --color-chocolat: #C6754D;
              --color-blanc: #FCF9F7;
              --font-mont: "Montaga";
               
         }  
        </style>
+
+
+    <style type="text/tailwindcs">
+        @theme {       
+              --color-page: #fcf9f7;
+              --color-chocolat: #C6754D;
+             --color-blanc: #FCF9F7;
+             
+              
+        }  
+       </style>
 </head>
+
 <body class="bg-page">
-    
+
     <header class="flex  justify-center gap-16">
-        <a  class="text-[22px] font-[400]  font-mont text-noirt " href="#">Home</a>
-        <a  class=" text-[22px] font-[400] font-mont  text-noirt" href="#">Our Store </a>
-        <a  class="text-[22px] font-[400]  font-mont text-noirt" href="#">Venue</a>
+        <a class="text-[22px] font-[400]  font-mont text-noirt " href="#">Home</a>
+        <a class=" text-[22px] font-[400] font-mont  text-noirt" href="#">Our Store </a>
+        <a class="text-[22px] font-[400]  font-mont text-noirt" href="#">Venue</a>
         <img src="./assets/img/Logo.svg">
-        <a  class="text-[22px] font-[400] font-mont  text-noirt" href="#">Itinierary</a>
-        <a  class="text-[22px] font-[400]  font-mont text-noirt" href="#">Registry</a>
-        <a  class="text-[22px] font-[400] font-mont  text-noirt" href="#">RSVP</a>
+        <a class="text-[22px] font-[400] font-mont  text-noirt" href="#">Itinierary</a>
+        <a class="text-[22px] font-[400]  font-mont text-noirt" href="#">Registry</a>
+        <a class="text-[22px] font-[400] font-mont  text-noirt" href="#">RSVP</a>
     </header>
     <!-- section2 -->
     <section class="flex flex-col mt-8">
-<div class="justify-center">
-    <div class="text-center   font-mont  text-[24px] text-chocolat">Please join us to celebrate</div>
-    <div class="text-center  font-mont text- noirt text-[101px]">Caleb & Amaya</div>
-    <div class="text-center   font-mont text-[24px] text-chocolat">July 15, 2022- Boise, Idaho</div>
-</div>
-<div class="flex justify-center items-center">
-<img src="./assets/img/image1.svg" alt="" class=" object-cover w-[1121px] h-[659px]">
-</div>
+        <div class="justify-center">
+            <div class="text-center   font-mont  text-[24px] text-chocolat">Please join us to celebrate</div>
+            <div class="text-center  font-mont text- noirt text-[101px]">Caleb & Amaya</div>
+            <div class="text-center   font-mont text-[24px] text-chocolat">July 15, 2022- Boise, Idaho</div>
+        </div>
+        <div class="flex justify-center items-center">
+            <img src="./assets/img/image1.svg" alt="" class=" object-cover w-[1121px] h-[659px]">
+        </div>
     </section>
     <!-- section3 -->
-     <section class="flex- justify-center bg-chocolat m-8 mt-8 w-full h-[645px]">
-        <div class="flex">
-            <div class="text-blanc  font-mont font-[400] text-[101px] w-[328px] h-[202px] flex-1">Our Story</div>
-            <p class="w-[800px] v h-[420px] font-[400] tect-blanc flex-1">Feugiat pretium egestas enim blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis, fringilla varius. Quis purus nisl orci eu, ultrices. Purus pretium egestas ultricies tempus sit elit. Maecenas pellentesque sit eros vitae. Maecenas suspendisse tincidunt ullamcorper justo neque quis et, laoreet.
-
-                Vitae lacus, aliquet lorem mauris, sit dolor sodales. Nullam quam quis lorem dui tristique massa enim. Faucibus sed egestas mollis vivamus et sed sed.
-                
-                Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis, fringilla varius. Quis purus nisl orci eu, ultrices. Purus pretium egestas ultricies tempus sit elit. </p>
+    <section class="flex- justify-center  items-center bg-green-100  mt-2 w-full h-[445px]">
+        <div class="flex justify-center items-center p-24 ">
+            <div class="text-blanc  font-mont  font-[400]  pl-12 -mt-6  text-[101px] w-[28px] h-[302px] flex-1">Our
+                <br />Story
         </div>
-     </section>
-     <!-- section4 -->
-     
-        <img src="./assets/img/main.svg" alt="" class=" object-cover w-[1440px] h-[600px]">
-        
-        <!-- section5 -->
-         <section class="flex items-center mt-8">
-            <div class=" flex flex-col flex-1 gap-16">
-                <h4 class=" text-[18px] font-[400] font-mont w-[85px] text-chocolat  h-[18px]"">The venue</h4>
-                <h1 class="text-[56px] font-[400] text-noirt font-mont w-[484px] h-[56px]">Gino Winery Estate</h1>
-                <p class=" text-[18px] font-[400] font-mont text-noirt w-[539px] h-[161px]">Feugiat pretium egestas enim blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis, fringilla varius.
-                    4750 Tyler Avenue Boise, Idaho 83705</p>
-            </div>
-            <img src="./assets/img/paysage.svg" alt="" class="flex-1">
-         </section>
-         <!-- section6 -->
-         <section class="flex p-16 gap-8">
-            <div class="flex flex-col w-[384px] h-[283px]">
-                <h1>Hotel 1</h1>
-                <p class=" text-[18px] font-mont font-[400] h-[116px]">Feugiat pretium egestas enim blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis, fringilla varius.</p>
-                <button class="text-[22px] font-mont font-[400] h-[32px] w-[78px] border-1 border-chocolat text-center"> Button</button>
-            </div>
-            <div class="flex flex-col w-[384px] h-[283px]">
-                <h1>Hotel 2</h1>
-                <p class=" text-[18px] font-mont font-[400] h-[116px]">Feugiat pretium egestas enim blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis, fringilla varius.</p>
-                <button class="text-[22px] font-mont font-[400] h-[32px] w-[78px] border-1 border-chocolat text-center"> Button</button>
-            </div>
-            <div class="flex flex-col w-[384px] h-[283px]">
-                <h1>Hotel 3</h1>
-                <p class=" text-[18px] font-mont font-[400] h-[116px]">Feugiat pretium egestas enim blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis, fringilla varius.</p>
-                <button class="text-[22px] font-mont font-[400] h-[32px] w-[78px] border-1 border-chocolat text-center"> Button</button>
-            </div>
-         </section >
-         <!-- section7 -->
-          <section class="">
-            
-          </section>
+            <div class=" font-[400]  -mt-6 pr-12 text-blanc  flex  flex-1 gap-6  flex-col ">
+            <p>Feugiat pretium egestas enim blandit purus
+                euismod. Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam
+                felis, fringilla varius. Quis purus nisl orci eu, ultrices. Purus pretium egestas ultricies tempus sit
+                elit. Maecenas pellentesque sit eros vitae. Maecenas suspendisse tincidunt ullamcorper justo neque quis
+                et, laoreet.</p>
 
-        
+            <h4>
+                Vitae lacus, aliquet lorem mauris, sit dolor sodales. Nullam quam quis lorem dui tristique massa enim.
+
+                Faucibus sed egestas mollis vivamus et sed sed.</h4>
+            <h4>
+                Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis,
+                fringilla varius. Quis purus nisl orci eu, ultrices. Purus pretium egestas ultricies tempus sit elit.
+            </h4>
+        </div>
+        </div>
+    </section>
+    <!-- section4 -->
+
+    <img src="./assets/img/main.svg" alt="" class=" object-cover w-[1440px] h-[600px]">
+
+    <!-- section5 -->
+    <section class="flex items-center  w-10/12 mt-8 m-12">
+        <div class=" flex flex-col flex-1 gap-16">
+            <h4 class=" text-[18px] font-[400] font-mont w-[85px] text-(--chocolat-color) h-[18px]">The venue</h4>
+            <h1 class=" text-[50px] font-[400] text-noirt font-mont w-[484px] h-[56px]">Gino Winery Estate</h1>
+            <p class=" text-[18px] font-[400] font-mont text-noirt w-[339px] h-[161px]">Feugiat pretium egestas enim
+                blandit purus euismod. Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim
+                nascetur quam diam felis, fringilla varius.
+                4750 Tyler Avenue Boise, Idaho 83705</p>
+        </div>
+        <div class="relative bg-cover bg-center bg-no-repeat w-[300px] h-[330px]" style="background-image:url('./assets/img/last_image.svg') ">
+            <div class="relative bg-cover bg-center bg-no-repeat w-[300px] h-[300px] ml-6" style="background-image:url('./assets/img/deuxieme-image.svg')">
+                <div class="relative bg-cover bg-center bg-no-repeat w-[300px] h-[290px]  -ml-4 mt-4" style="background-image:url('./assets/img/paysage.svg')">
+            </div>
+        <!-- <img src="./assets/img/paysage.svg" alt="" class="w-[400px] object-cover  mt-12"> -->
+        </div>
+        </div>
+    </section>
+    <!-- section6 -->
+    <section class="flex p-16 gap-8">
+        <div class="flex flex-col w-[384px] h-[83px] gap-8">
+            <h1 class="font-monta text-[43px] texy-noirt">Hotel 1</h1>
+            <p class=" text-[18px] font-mont font-[400] h-[116px]">Feugiat pretium egestas enim blandit purus euismod.
+                Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis,
+                fringilla varius.</p>
+            <button
+                class="text-[22px] font-mont  mt-12 font-[400] h-[32px] w-[78px] border-1 border-chocolat text-center">
+                Button</button>
+        </div>
+        <div class="flex flex-col w-[384px] h-[283px] gap-8">
+            <h1 class="font-monta text-[43px] texy-noirt">Hotel 2</h1>
+            <p class=" text-[18px] font-mont font-[400] h-[116px]">Feugiat pretium egestas enim blandit purus euismod.
+                Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis,
+                fringilla varius.</p>
+            <button
+                class="text-[22px] font-mont  mt-12 font-[400] h-[32px] w-[78px] border-1 border-chocolat text-center">
+                Button</button>
+        </div>
+        <div class="flex flex-col w-[384px] h-[283px] gap-8">
+            <h1 class="font-monta text-[43px] texy-noirt">Hotel 3</h1>
+            <p class="text-[18px] font-mont font-[400] h-[116px]">Feugiat pretium egestas enim blandit purus euismod.
+                Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis,
+                fringilla varius.</p>
+            <button
+                class="text-[22px] font-mont mt-12 font-[400] h-[32px] w-[78px] border-1 border-chocolat text-center">
+                Button</button>
+        </div>
+    </section>
+    <!-- section7 -->
+    <section class="p-8">
+        <div class=" flex gap-6">
+            <h1>The Bridal Party</h1>
+            <div class="flex gap-20">
+                <div>
+                    <h4 class=" text-[24px] font-[400] text-noirt font-monta">Groomsmen</h4>
+                    <h4 class=" text-[24px] font-[400]  text-noirt font-monta">Bridemaids</h4>
+                </div>
+                <div>
+                    <img src="./assets/img/julien.svg" alt="" class="w-[200px] h-[200px]">
+                    <h1 class="font-[400] text-[30px] font-monta w-[204px] h-[32px] ">Julian Bernard</h1>
+                </div>
+                <div>
+                    <img src="./assets/img/daman.svg" alt="" class="w-[200px] h-[200px]">
+                    <h1 class="font-[400] text-[30px] font-monta w-[204px] h-[32px]">Damán Haber</h1>
+                </div>
+                <div>
+                    <img src="./assets/img/patrick.svg" alt="" class="w-[200px] h-[200px]">
+                    <h1 class="font-[400] text-[32px] font-monta w-[204px] h-[32px]">Patrik Pavone</h1>
+                </div>
+                <div>
+                    <img src="./assets/img/david.svg" alt="" class="w-[200px] h-[200px]">
+                    <h1 class="font-[400] text-[32px] font-monta w-[204px] h-[32px]">David Tatum</h1>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- section7 -->
+    <section class=" w-full h-[740px] flex gap-12 items-center flex-col">
+        <h1 class="text-[56px] font-[400] font-monta "> Itinerary</h1>
+        <div class="flex gap-16">
+            <h4 class="font-monta text-[18px] font-[400]  text-black">Friday, July 11</h4>
+            <h4 class="font-monta text-[18px] font-[400]  text-noirt">Saturday, July 12</h4>
+            <h4 class="font-monta text-[18px] font-[400]  text-noirt">Sunday, July 13</h4>
+        </div>
+        <div class="flex  gap-36">
+            <h4 w-[184px] h-[24px] font-[400] text-chocolat text-[24px]>10am</h4>
+            <div class=" flex-colgap-4">
+                <h1 w-[135px] h-[32px] font-[400] text-[32px]>Item Title</h1>
+                <p class="w-[640px] h-[87px] font-[400] text-[18px]">Phasellus accumsan neque viverra ut sem aliquam
+                    purus rhoncus, morbi. Ut in eget leo dui nunc. Tortor viverra magna dignissim sit. Libero eu euismod
+                    risus, mauris etiam ut morbi amet in. Tortor duis dignissim adipiscing sem.</p>
+            </div>
+        </div>
+
+        <div class="flex gap-36">
+            <h4 w-[184px] h-[24px] font-[400] text-chocolat text-[24px]>12pm</h4>
+            <div class=" flex flex-col gap-8">
+                <div class="">
+                    <h1 w-[135px] h-[32px] font-[400] text-[32px]>Item Title</h1>
+                    <p class="w-[640px] h-[87px] font-[400] text-[18px]">Phasellus accumsan neque viverra ut sem aliquam
+                        purus rhoncus, morbi. Ut in eget leo dui nunc. Tortor viverra magna dignissim sit. Libero eu
+                        euismod risus, mauris etiam ut morbi amet in. Tortor duis dignissim adipiscing sem.</p>
+                </div>
+                <div>
+                    <h1 w-[135px] h-[32px] font-[400] text-[32px]>Item Title</h1>
+                    <p class="w-[640px] h-[87px] font-[400] text-[18px]">Phasellus accumsan neque viverra ut sem aliquam
+                        purus rhoncus, morbi. Ut in eget leo dui nunc. Tortor viverra magna dignissim sit. Libero eu
+                        euismod risus, mauris etiam ut morbi amet in. Tortor duis dignissim adipiscing sem.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- section8 -->
+    <section class=" w-full h-[640px] flex gap-12 items-center flex-col m-4">
+        <h1 class="text-[40px] font-[400]">RSVP</h1>
+        <P class="w-[700px] ">Phasellus accumsan neque viverra ut sem aliquam purus rhoncus, morbi. Ut in eget leo dui
+            nunc. Tortor viverra magna dignissim sit. Libero eu euismod risus, mauris etiam ut morbi amet in. Tortor
+            duis dignissim adipiscing sem.</P>
+
+        <div class="flex flex-col gap-6">
+            <div class="flex gap-4">
+                <div class="">
+                    <h1>First name</h1>
+                    <div class="border-1 bg-noirt w-[284px] h-[52px]"></div>
+                </div>
+                <div class="">
+                    <h1>Last name</h1>
+                    <div class="border-1 bg-noit w-[284px] h-[52px]"></div>
+                </div>
+            </div>
+            <div class="">
+                <h1>Email Address</h1>
+                <div class="border-1  bg-noirt w-[580px] h-[52px]"></div>
+            </div>
+
+            <div class="">
+                <h1>Number of Guests</h1>
+                <div class="flex gap-2">
+                    <div class="border-1  bg-noirt w-[138px] h-[48px] flex gap-2 items-center">
+                        <img src="./assets/img/rond.svg" alt="" class="ml-2">
+                    </div>
+                    <div class="border-1  bg-noirt w-[138px] h-[48px] flex gap-2 items-center"> <img
+                            src="./assets/img/rond.svg" alt="" class="ml-2">
+                    </div>
+                    <div class="border-1  bg-noirt w-[138px] h-[48px] flex gap-2 items-center"> <img
+                            src="./assets/img/rond.svg" alt="" class="ml-2">
+                    </div>
+                    <div class="border-1  bg-noirt w-[138px] h-[48px] flex gap-2 items-center"> <img
+                            src="./assets/img/rond.svg" alt="" class="ml-2">
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-4">
+
+                <div class="border-1 bg-noirt w-[280px] h-[48px]  flex gap-2 items-center">
+                    <img src="./assets/img/carre.svg" alt="" class="ml-2">
+                    <h4>Accept with pleasure</h4>
+                </div>
+
+
+                <div class=" flex border-1 bg-noit w-[280px] h-[48px] gap-2 ml-2 items-center ">
+                    <img src="./assets/img/carre.svg" alt="" class="ml-2">
+                    <h4>Regretfully Decline</h4>
+                </div>
+            </div>
+
+
+            <div class="flex gap-4">
+
+                <div class="border-1 bg-noirt w-[183px] h-[48px] gap-2 flex items-center">
+                    <img src="./assets/img/caree.svg" alt="" class="ml-2">
+                    <h4>Reheaamal Dinner</h4>
+                </div>
+
+
+                <div class="border-1 bg-noit w-[183px] h-[48px] gap-2 flex items-center">
+                    <img src="./assets/img/carre.svg" alt="" class="ml-2">
+                    <h4>Ceremony</h4>
+                </div>
+                <div class="border-1 bg-noit w-[183px] h-[48px] gap-2 justify-center flex items-center">
+                    <img src="./assets/img/carre.svg" alt="" class="ml-2">
+                    <h4>Reception</h4>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+<!-- last-section -->
+ <footer class="flex justify-center p-2 gap-16 pt-24 pb-16">
+    <a class="font-monta  text-noirt text-[22px] w-[100px] h-[32px] font-[400]" href="#">Home</a>
+    <a class="font-monta  text-noirt text-[22px] w-[100px] h-[32px] font-[400]"  href="#">Our Story</a>
+    <a class="font-monta  text-noirt text-[22px] w-[60px] h-[32px] font-[400]"  href="#">Venue</a>
+    <a class="font-monta text-noirt text-[22px] w-[100px] h-[32px] font-[400]"  href="#">Itinierary</a>
+    <a class="font-monta text-noirt text-[22px] w-[100px] h-[32px] font-[400]"  href="# ">Registry</a>
+    <a class="font-monta  text-noirt text-[22px] w-[100px] h-[32px] font-[400]"  href="#">RSVP</a>
+ </footer>
+
 </body>
-</html>
 
+</html>
